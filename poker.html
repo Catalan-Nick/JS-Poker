@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      Author: Nicholas Catalan
+      Date:   11/20/2022
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Poker Randomizing</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="poker.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Deal cards from a shuffled poker deck
+      </h1>
+   </header>
+
+   <section>
+      <h1>Poker Hand</h1>
+      
+      <div id="hand">
+         <span id="card1"></span>
+         <span id="card2"></span>
+         <span id="card3"></span>
+         <span id="card4"></span>
+         <span id="card5"></span>
+      </div>
+      <div id="deckStatus">Cards left in the current deck: <span id="cardsLeft">52</span></div>
+      
+      <input type="button" value="DEAL" id="deal" />
+   </section>
+</body>
+</html>
